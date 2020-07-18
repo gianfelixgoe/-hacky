@@ -2,24 +2,52 @@
     Css files and styles for the popup html
     to be changed soon
 */
-
-      html,
       body {
-        font-family: "Open Sans", sans-serif;
-        font-size: 14px;
-        margin: 0;
-        height: 380px;
-        padding: 0;
-        width: 384px;
+        position: relative;
+        width: 426px;
+        height: 426px;
+        background-image: url("Untitled\ design\ \(1\).png")
       }
 
       h1 {
         font-family: "Menlo", monospace;
-        font-size: 22px;
+        font-size: 2px;
         font-weight: 400;
         margin: 0;
+        height: 350px;
+        width: 384px;
+        left: 30px;
+        top: 120px;
         color: #2f5876;
       }
+
+
+      h2 {
+        position: absolute;
+        font-family: "Open Sans", sans-serif;
+        font-size: 13px;
+        font-style: italic;
+        margin: 0;
+        height: 350px;
+        padding: 0;
+        width: 384px;
+        left: 30px;
+        top: 70px;
+      }
+
+      h3 {
+        position: absolute;
+        width: 220px;
+        height: 44px;
+        left: 30px;
+        top: 130px;
+    
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 15px;
+    }
 
       a:link,
       a:visited {
@@ -30,6 +58,8 @@
 
       img {
         width: 30px;
+        left: 30px;
+        top: 70px;
       }
 
       .modal-header {
