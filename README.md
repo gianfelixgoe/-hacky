@@ -1,2 +1,2 @@
 # hacky
-This is for CSE Hacky Hacky
+To run the extension, use the hacky folder
