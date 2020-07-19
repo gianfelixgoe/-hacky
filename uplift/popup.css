@@ -37,10 +37,10 @@
 
       h3 {
         position: absolute;
-        width: 220px;
+        width: 380px;
         height: 44px;
-        left: 30px;
-        top: 130px;
+        left: 10px;
+        top: 110px;
     
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
@@ -110,4 +110,31 @@
       .flex .fa {
         font-size: 40px;
         color: #2f5876;
+      }
+
+      time {
+        display: block;
+        font-size: 12px;
+        opacity: 0.3;
+        margin-top: 2px;
+        font-weight: 600;
+      }
+
+      header {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 600;
+      }
+
+      p {
+        font-size: 13px;
+        margin-top: 6px;
+        line-height: 17px;
+        opacity: 0.6;
+      }
+
+      .button {
+        position: relative;
+        bottom: -269.5px;
+        right: -290px;
       }
